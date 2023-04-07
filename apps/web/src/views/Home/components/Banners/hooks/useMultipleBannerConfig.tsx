@@ -6,7 +6,6 @@ import IFOBanner from '../IFOBanner'
 import V3LaunchBanner from '../V3LaunchBanner'
 import PerpetualBanner from '../PerpetualBanner'
 import V3Banner from '../V3Banner'
-import FarmV3MigrationBanner from '../FarmV3MigrationBanner'
 import useIsRenderCompetitionBanner from './useIsRenderCompetitionBanner'
 import useIsRenderIfoBanner from './useIsRenderIFOBanner'
 
@@ -36,7 +35,6 @@ export const useMultipleBannerConfig = () => {
   return useMemo(() => {
     const NO_SHUFFLE_BANNERS: IBannerConfig[] = [
       { shouldRender: true, banner: <V3LaunchBanner /> },
-      { shouldRender: true, banner: <FarmV3MigrationBanner /> },
       // { shouldRender: true, banner: <TradingRewardBanner /> },
       { shouldRender: true, banner: <V3Banner /> },
       { shouldRender: true, banner: <EthBanner /> },
