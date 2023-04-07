@@ -68,10 +68,10 @@ const Hero = () => {
           >
             <Box>
               <StyledHeading as="h1" mb={['12px', '12px', '16px']}>
-                {t('IFO: Initial Farm Offerings')}
+                LaunchPad
               </StyledHeading>
               <StyledSubTitle bold>
-                {t('Buy new tokens launching on BNB Smart Chain')}
+                Buy new tokens launching on Evmos
                 {isMobile && <StyledButton onClick={handleClick}>{t('How does it work?')}</StyledButton>}
               </StyledSubTitle>
             </Box>
