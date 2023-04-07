@@ -2,12 +2,10 @@ import { languageList, useTranslation } from '@pancakeswap/localization'
 import { footerLinks, Menu as UikitMenu, NextLinkFromReactRouter, useModal } from '@pancakeswap/uikit'
 import USCitizenConfirmModal from 'components/Modal/USCitizenConfirmModal'
 import { NetworkSwitcher } from 'components/NetworkSwitcher'
-import PhishingWarningBanner from 'components/PhishingWarningBanner'
 import { useCakeBusdPrice } from 'hooks/useBUSDPrice'
 import useTheme from 'hooks/useTheme'
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
-import { usePhishingBanner } from '@pancakeswap/utils/user'
 import GlobalSettings from './GlobalSettings'
 import { SettingsMode } from './GlobalSettings/types'
 import { useMenuItems } from './hooks/useMenuItems'
@@ -24,7 +22,6 @@ const Menu = (props) => {
   const { currentLanguage, setLanguage, t } = useTranslation()
   const { pathname } = useRouter()
   const [onUSCitizenModalPresent] = useModal(<USCitizenConfirmModal />, true, false, 'usCitizenConfirmModal')
-  const [showPhishingWarningBanner] = usePhishingBanner()
 
   const menuItems = useMenuItems(onUSCitizenModalPresent)
 
@@ -50,7 +47,6 @@ const Menu = (props) => {
             <UserMenu />
           </>
         }
-        banner={showPhishingWarningBanner && typeof window !== 'undefined' && <PhishingWarningBanner />}
         isDark={isDark}
         toggleTheme={toggleTheme}
         currentLang={currentLanguage.code}

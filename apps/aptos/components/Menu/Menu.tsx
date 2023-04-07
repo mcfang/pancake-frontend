@@ -2,7 +2,6 @@
 import { languageList, useTranslation } from '@pancakeswap/localization'
 import { Menu as UIMenu, NextLinkFromReactRouter, footerLinks } from '@pancakeswap/uikit'
 import { NetworkSwitcher } from 'components/NetworkSwitcher'
-import PhishingWarningBanner from 'components/PhishingWarningBanner'
 import { useCakePrice } from 'hooks/useStablePrice'
 import orderBy from 'lodash/orderBy'
 import { useTheme } from 'next-themes'
@@ -66,7 +65,6 @@ export const Menu = ({ children }: { children: ReactNode }) => {
       links={menuItems}
       activeItem={activeMenuItem?.href}
       isDark={isDark}
-      banner={show ? <PhishingWarningBanner /> : undefined}
       rightSide={
         <>
           <SettingsButton mr="8px" />
