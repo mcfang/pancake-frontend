@@ -52,11 +52,11 @@
     },
     {
       "name": "PancakeSwap Token",
-      "symbol": "CAKE",
+      "symbol": "ATOM",
       "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960"
     },
     {
       "name": "Venus",
@@ -116,35 +116,35 @@
     },
     {
       "name": "PancakeSwap Token",
-      "symbol": "CAKE",
+      "symbol": "ATOM",
       "address": "0xFa60D973F7642B748046464e165A65B7323b0DEE",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960"
     },
     {
       "name": "PancakeSwap Token",
-      "symbol": "CAKE",
+      "symbol": "ATOM",
       "address": "0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898",
       "chainId": 1,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960"
     },
     {
       "name": "PancakeSwap Token",
-      "symbol": "CAKE",
+      "symbol": "ATOM",
       "address": "0xc2C3eAbE0368a2Ea97f485b03D1098cdD7d0c081",
       "chainId": 5,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960"
     },
     {
       "name": "PancakeSwap Token",
-      "symbol": "CAKE2",
+      "symbol": "ATOM",
       "address": "0x8d008B313C1d6C7fE2982F62d32Da7507cF43551",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960"
     },
     {
       "name": "BUSD Token",
